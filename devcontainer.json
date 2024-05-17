@@ -1,6 +1,0 @@
-{
-  "image": "ghcr.io/tianocore/containers/ubuntu-20-dev:a0dd931",
-  "postCreateCommand": "git config --global --add safe.directory ${containerWorkspaceFolder} && pip install --upgrade -r pip-requirements.txt",
-  "forwardPorts": [5000],
-  "privileged": true
-}

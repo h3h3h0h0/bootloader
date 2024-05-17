@@ -1,10 +1,6 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/cpp
 {
-	"name": "C++",
-	"build": {
-		"dockerfile": "Dockerfile"
-	},
 	"image": "ghcr.io/tianocore/containers/ubuntu-20-dev:a0dd931",
   	"postCreateCommand": "git config --global --add safe.directory ${containerWorkspaceFolder} && pip install --upgrade -r pip-requirements.txt",
   	"forwardPorts": [5000],
